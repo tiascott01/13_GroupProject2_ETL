@@ -1,9 +1,7 @@
 # 13_GroupProject2_ETL
-## Overview
+## Project Summary
 
-This repository contains a two correlating files ('part_1_mars_news.ipynb' and 'part_2_mars_news.ipynb') with an exported CSV file ('mars_data_export.csv') for analyzing and summarizing data that was scraped from a website. The directions for the module were to scrape data from a website to pull data into a jupyter file, create data and charts against the imported data, and export the findings into a csv.
-
-Additionally, the file also has several factors I wish to address here. First, I did not use the basic colors from the notebook when creating my graphs. I instead used specific tones of green, yellow, blue, pink, and red. This was intentional. These are the same hues from my previous homeworks and I believe it's a better representation of different datasets than plotting all the charts in the same original plot colors. I realize this is a full portfolio of work and I would like my portfolio to show a congruent use of colors and styles across each of my pieces where possible.
+This repository contains a project which extracts, transforms, and loads crowdfunding data from two resource xlsx files (crowdfunding and contacts_uncleaned). The files were initially imported and analyzed the data using jupyter notebook. Each analysis was exported as a csv file and then combined into a SQL database using PGAdmin 4. The imported tables were queried using SQL in which code and csv files were exported into the queries folder. 
 
 ## Results
 
@@ -41,4 +39,6 @@ You can use this file to analyze the data in the corresponding notebook.
 
 ## Resources and Citations
 
-1. General - ChatGpt.com
+1. Project Partners - Tia Scott and Haylee McLean
+2. General - ChatGpt.com
+3. Office Hours - Unix timestamp conversion code, Antonio Laverghetta
