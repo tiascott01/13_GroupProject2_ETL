@@ -3,6 +3,24 @@
 
 This repository contains a project which extracts, transforms, and loads crowdfunding data from two resource xlsx files (crowdfunding and contacts_uncleaned). The files were initially imported and analyzed the data using jupyter notebook. Each analysis was exported as a csv file and then combined into a SQL database using PGAdmin 4. The imported tables were queried using SQL in which code and csv files were exported into the queries folder. 
 
+---
+# GitHub File Navigation
+  * Main Repo
+      * ETL_Mini_Project_TScott_HMclean - jupyter notebook which contains all code, figures, and export functions
+      * crowdfunding_db_schema.SQL - SQL schema that creates and modifies tables for the SQL queries.
+      * crowdfunding_ERD.png - Visual image of the tables and thier relationships. 
+  * Queries Folder
+      * Query_Campaign_Contact_Join.csv - A csv which has the contact.csv imported into the campaign.csv.
+      * Query_Campaign_Table.csv - A csv which shows the queried "Campaign" table. 
+      * Query_Category_Table.csv - A csv which shows the queried "Category" table.
+      * Query_Contacts_Table.csv - A csv which shows the queried "Contacts" table.
+      * Query_Subcategory_Table.csv - A csv which shows the queried "Subcategory" table.
+      * Table_Queries.SQL- A SQL file which shows the queries used to generate the tables.
+  * Resources - folder which contains resources need for import into the various code notebooks.
+  * Files
+      * .gitignore - file that dictates which files to upload to github. Ignores files with sensitive information or unnecessary files. 
+      * ReadMe - instructions and summary of the project.
+
 ## Results
 
 In the 11_WebScraping_Challenge, the first dataset is an scraping from a mars website including title and preview text. The notebook appends data from the website into a more manageable list format which shows the lists in fill from the website. In the second file, another scraping from a separate website collects data about the temperature, date, pressure, and other weather conditions from the location of the Curiosity rover. The data chain continues importing the data and setting into a dataframe for further analysis and graphing. To make sure the data is calculated appropriately, several columns must adhere convert to specific datatypes and are changed to reflect the new type. Several graphs have been calculated against as well as an analysis after each graph answering varying questions about conditions on Mars. A final output of the data is saved in a csv file for future use.
