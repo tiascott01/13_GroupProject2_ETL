@@ -14,7 +14,7 @@ CREATE TABLE "campaign" (
     "backers_count" INT  NOT NULL ,
     "country" varchar(2)  NOT NULL ,
     "currency" varchar(3)  NOT NULL ,
-    "launch_date" date  NOT NULL ,
+    "launched_date" date  NOT NULL ,
     "end_date" date  NOT NULL ,
     "category_id" varchar(4)  NOT NULL ,
     "subcategory_id" varchar(10)  NOT NULL ,
