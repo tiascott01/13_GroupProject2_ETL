@@ -84,8 +84,8 @@ This repository contains a project which extracts, transforms, and loads crowdfu
      * [Link to Schema](https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/crowdfunding_db_schema.sql)
   * Finally, queries were run on the data in the database.
     <p align="left">
-    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Campaign_Table.PNG" width="425", hspace="15">
-    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Category_Table.PNG" width="425">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Campaign_Table.PNG" width="600", hspace="15">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Category_Table.PNG" width="100">
     </p>
 
 ## Results
