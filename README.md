@@ -94,7 +94,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
     </br>
   * Aditionally, we created one joined database.
     <p align="left">
-    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Campaign_Contacts_Join_Table.PNG" width="750">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Campaign_Contacts_Join_Table.PNG" width="850">
     </p>
 
     
