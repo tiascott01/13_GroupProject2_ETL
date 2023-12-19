@@ -76,10 +76,11 @@ This repository contains a project which extracts, transforms, and loads crowdfu
 ## Load
   * The first part of loading the data was identifying which parts of the exported csv's can be joined together. 
   * the second part was to create an Entity Relationship Diagram which outlines the primary and foreign keys of joining various csv's together.
-  <p align="left">
-  <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/crowdfunding_ERD.png" width="425", hspace="15">
-  </p>
-  * Extractions were for the Campaign Dataframe and the Contact Dataframe.
+    <p align="left">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/crowdfunding_ERD.png" width="425", hspace="15">
+    </p>
+  * In the third part, a database was created and subsequently a schema and tables in PgAdmin4.
+  * This schema includes steps to drop existing tables, create the tables as they would exist in the database, and then the altering of the tables to tie the tables together. 
 
 
 ## Results
