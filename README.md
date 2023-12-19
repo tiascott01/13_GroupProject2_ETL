@@ -31,7 +31,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
 ---
 ## Transform
   * The first part of the transformation was to find the unique categories and subcategories and create a unique category and sub category ID.
-    <p align="center">
+    <p align="left">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/category.png" width="150">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/subcategory.png" width="150">
     </p>
@@ -49,8 +49,6 @@ This repository contains a project which extracts, transforms, and loads crowdfu
        * "subcategory_id" with the unique number matching the “subcategory_id” from the subcategory DataFrame.
     <p align="center">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign.png" width="650">
-    </p>
-    <p align="center">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign_datatypes.png" width="150">
     </p>
 
