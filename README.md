@@ -49,7 +49,9 @@ This repository contains a project which extracts, transforms, and loads crowdfu
        * "subcategory_id" with the unique number matching the “subcategory_id” from the subcategory DataFrame.
     <p align="center">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign.png" width="450">
-    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/subcategory.png" width="150">
+    </p>
+    <p align="center">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign.png" width="150">
     </p>
 
 - And, create a column that contains the unique four-digit contact ID number from the `contact.xlsx` file.
