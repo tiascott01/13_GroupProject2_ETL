@@ -48,7 +48,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
        * "category_id" with the unique number matching the “category_id” from the category DataFrame.
        * "subcategory_id" with the unique number matching the “subcategory_id” from the subcategory DataFrame.
     <p align="left">
-    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign.png" width="650", hspace="15">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign.png" width="651", hspace="15">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign_datatypes.png" width="157">
     </p>
 
