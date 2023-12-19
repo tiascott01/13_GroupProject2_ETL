@@ -39,20 +39,29 @@ This repository contains a project which extracts, transforms, and loads crowdfu
        * "cf_id" column,
        * "contact_id" column,
        * “company_name” column, the "blurb" column (renamed as "description"),
-       * "goal" column (converted to a `float` datatype),
-       * "pledged" column (converted to a `float` datatype),
+       * "goal" column (converted to a float datatype),
+       * "pledged" column (converted to a float datatype),
        * "backers_count" column, "country" column,
        * "currency" column,
        * "launched_at" column (renamed as "launch_date" and converted to a datetime format),
        * "deadline" column (renamed as "end_date" and converted to a datetime format),
-       * "category_id" with the unique number matching the “category_id” from the category DataFrame.
-       * "subcategory_id" with the unique number matching the “subcategory_id” from the subcategory DataFrame.
+       * "category_id" with the unique number matching the “category_id” from the category DataFrame,
+       * and "subcategory_id" with the unique number matching the “subcategory_id” from the subcategory DataFrame.
     <p align="left">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign.png" width="654", hspace="15">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign_datatypes.png" width="157">
     </p>
-
-- And, create a column that contains the unique four-digit contact ID number from the `contact.xlsx` file.
+#### Option 1: Pandas Dataframe
+  * In the third part of the transformation a contacts dataframe was created with pandas: 
+       * "contact_id" column,
+       * "first_name" column,
+       * “last_name” column, the "blurb" column (renamed as "description"),
+       * and "email" column (converted to a float datatype).  
+    <p align="left">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_pandas1.png" width="150", hspace="15">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_pandas2.png" width="150", hspace="15">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_info_pandas.png" width="157">
+    </p>
 
 
 
