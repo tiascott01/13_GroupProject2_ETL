@@ -85,6 +85,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
   * Finally, queries were run on the data in the database.
     <p align="left">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Campaign_Table.PNG" width="425", hspace="15">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Category_Table.PNG" width="425">
     </p>
 
 ## Results
