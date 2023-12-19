@@ -31,7 +31,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
 ---
 ## Transform
   * The first part of the transformation was to find the unique categories and subcategories and create a unique category and sub category ID.
-  * <p align="center">
+    <p align="center">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/category.png" width="150">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/subcategory.png" width="150">
     </p>
