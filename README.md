@@ -68,8 +68,8 @@ This repository contains a project which extracts, transforms, and loads crowdfu
        * “last_name” column, the "blurb" column (renamed as "description"),
        * and "email" column (converted to a float datatype).  
     <p align="left">
-    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_regex1.png" width="425", hspace="15">
-    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_regex2.png" width="425">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_regex1.png" width="375", hspace="15">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_regex2.png" width="490">
     </p>
 
 
