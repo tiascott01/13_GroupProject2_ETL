@@ -31,7 +31,9 @@ This repository contains a project which extracts, transforms, and loads crowdfu
 ---
 ## Transform
   * The first part of the transformation was to find the unique categories and subcategories and create a unique category and sub category ID.
-  * <Cat Images> <Subcat images>
+  * <p align="center">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/category.png" width="325">
+    </p>
   * In the second part of the transformation a campaign dataframe was created with:
        * "cf_id" column,
        * "contact_id" column,
