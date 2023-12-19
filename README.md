@@ -17,6 +17,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
       * Query_Subcategory_Table.csv - A csv which shows the queried "Subcategory" table.
       * Table_Queries.SQL- A SQL file which shows the queries used to generate the tables.
   * Resources - folder which contains resources need for import into the various code notebooks.
+  * Images - folder which contains images for the project.
   * Files
       * .gitignore - file that dictates which files to upload to github. Ignores files with sensitive information or unnecessary files. 
       * ReadMe - instructions and summary of the project.
