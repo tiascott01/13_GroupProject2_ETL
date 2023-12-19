@@ -4,7 +4,7 @@
 This repository contains a project which extracts, transforms, and loads crowdfunding data from two resource xlsx files (crowdfunding and contacts_uncleaned). The files were initially imported and analyzed the data using jupyter notebook. Each analysis was exported as a csv file and then combined into a SQL database using PGAdmin 4. The imported tables were queried using SQL in which code and csv files were exported into the queries folder. 
 
 ---
-# GitHub File Navigation
+## GitHub File Navigation
   * Main Repo
       * ETL_Mini_Project_TScott_HMclean - jupyter notebook which contains all code, figures, and export functions
       * crowdfunding_db_schema.SQL - SQL schema that creates and modifies tables for the SQL queries.
@@ -23,13 +23,13 @@ This repository contains a project which extracts, transforms, and loads crowdfu
       * ReadMe - instructions and summary of the project.
 
 ---
-## Extract
+# Extract
   * Data was provided in the starter files for extraction.
   * Imports were from excel files into jupyter notebook.
   * Extractions were for the Campaign Dataframe and the Contact Dataframe.
 
 ---
-## Transform
+# Transform
   * The first part of the transformation was to find the unique categories and subcategories and create a unique category and sub category ID. Data was then exported as a csv.
     <p align="left">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/category.png" width="186", hspace="15">
@@ -51,7 +51,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign.png" width="654", hspace="15">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign_datatypes.png" width="157">
     </p>
-### Option 1: Pandas Dataframe
+## Option 1: Pandas Dataframe
   * In the third part of the transformation a contacts dataframe was created with pandas and exported as a csv: 
        * "contact_id" column,
        * "first_name" column,
@@ -61,7 +61,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_pandas1.png" width="487", hspace="15">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_pandas2.png" width="325">
     </p>
-### Option 2: Regex Dataframe
+## Option 2: Regex Dataframe
   * In the third part of the transformation a contacts dataframe was created with regex and exported as a csv: 
        * "contact_id" column,
        * "first_name" column,
@@ -73,7 +73,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
     </p>
 
 ---
-## Load
+# Load
   * The first part of loading the data was identifying which parts of the exported csv's can be joined together. 
   * the second part was to create an Entity Relationship Diagram which outlines the primary and foreign keys of joining various csv's together.
     <p align="left">
