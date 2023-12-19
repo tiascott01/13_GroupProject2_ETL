@@ -101,7 +101,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
 ---
 ## Results
 
-In this project, we aggregated the imported data into four final csv files, campaign.csv, contacts.csv, category.csv, and sub-category.csv. These csv files host various tables that interconnect different sets of data. Using these relationships we created an entity relationship diagram not only to visually show the relationship but to form the tables and connections within the SQL database. These csv's were the foundation of the data that we imported into the SQL database we built. This results in in a fully functional SQL database tying together four interdependent csv files that can be used for queries or further data analysis. Additionally, images and independent csvs for reference and resources are available for additional information.
+In this project, we cleaned the imported data into four final csv files, campaign.csv, contacts.csv, category.csv, and sub-category.csv. These csv files host various tables that interconnect different sets of data. Using these relationships we created an entity relationship diagram not only to visually show the relationship but to form the tables and connections within the SQL database. These csv's were the foundation of the data that we imported into the SQL database we built. This results in in a fully functional SQL database tying together four interdependent csv files that can be used for queries or further data analysis. Additionally, images and independent csvs for reference and resources are available for additional information.
 
 
 ## Resources and Citations
