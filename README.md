@@ -32,8 +32,8 @@ This repository contains a project which extracts, transforms, and loads crowdfu
 ## Transform
   * The first part of the transformation was to find the unique categories and subcategories and create a unique category and sub category ID.
     <p align="left">
-    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/category.png" width="150", style="margin-right: 20px;">
-    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/subcategory.png" width="150", style="margin-right: 20px;">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/category.png" width="150", hspace="20">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/subcategory.png" width="150", hspace="20">
     </p>
   * In the second part of the transformation a campaign dataframe was created with:
        * "cf_id" column,
@@ -48,8 +48,8 @@ This repository contains a project which extracts, transforms, and loads crowdfu
        * "category_id" with the unique number matching the “category_id” from the category DataFrame.
        * "subcategory_id" with the unique number matching the “subcategory_id” from the subcategory DataFrame.
     <p align="left">
-    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign.png" width="650", style="margin-right: 20px;">
-    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign_datatypes.png" width="155", style="margin-right: 20px;">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign.png" width="650", hspace="50">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign_datatypes.png" width="155", hspace="50">
     </p>
 
 - And, create a column that contains the unique four-digit contact ID number from the `contact.xlsx` file.
