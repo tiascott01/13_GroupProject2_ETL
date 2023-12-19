@@ -87,7 +87,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Campaign_Table.PNG" width="850", hspace="15">
     </p>
     <p align="center">
-    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Category_Table.PNG" width="210", hspace="7">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Category_Table.PNG" width="205", hspace="7">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Subcategory_Table.PNG" width="125", hspace="7">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Contacts_Table.PNG" width="305", hspace="7">
     </p>
