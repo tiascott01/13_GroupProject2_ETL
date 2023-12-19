@@ -51,7 +51,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign.png" width="654", hspace="15">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign_datatypes.png" width="157">
     </p>
-#### Option 1: Pandas Dataframe
+### Option 1: Pandas Dataframe
   * In the third part of the transformation a contacts dataframe was created with pandas: 
        * "contact_id" column,
        * "first_name" column,
@@ -60,6 +60,16 @@ This repository contains a project which extracts, transforms, and loads crowdfu
     <p align="left">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_pandas1.png" width="487", hspace="15">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_pandas2.png" width="325">
+    </p>
+### Option 2: Regex Dataframe
+  * In the third part of the transformation a contacts dataframe was created with regex: 
+       * "contact_id" column,
+       * "first_name" column,
+       * “last_name” column, the "blurb" column (renamed as "description"),
+       * and "email" column (converted to a float datatype).  
+    <p align="left">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_regex1.png" width="487", hspace="15">
+    <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_regex2.png" width="325">
     </p>
 
 
