@@ -80,7 +80,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/crowdfunding_ERD.png" width="425", hspace="15">
     </p>
   * In the third part, a database was created and subsequently a schema and tables in PgAdmin4.
-  * This schema includes steps to drop existing tables, create the tables as they would exist in the database, and then the altering of the tables to tie the tables together. 
+     * This schema includes steps to drop existing tables, create the tables as they would exist in the database, and then the altering of the tables to tie the tables together. 
 
 
 ## Results
