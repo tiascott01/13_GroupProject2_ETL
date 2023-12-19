@@ -74,8 +74,11 @@ This repository contains a project which extracts, transforms, and loads crowdfu
 
 ---
 ## Load
-  * The first part of loading the data was identifying which parts of the exported csv's can be joined together 
-  * Imports were from excel files into jupyter notebook.
+  * The first part of loading the data was identifying which parts of the exported csv's can be joined together. 
+  * the second part was to create an Entity Relationship Diagram which outlines the primary and foreign keys of joining various csv's together.
+  <p align="left">
+  <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/crowdfunding_ERD.png" width="380">
+  </p>
   * Extractions were for the Campaign Dataframe and the Contact Dataframe.
 
 
