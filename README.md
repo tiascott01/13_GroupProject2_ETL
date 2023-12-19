@@ -75,7 +75,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
 ---
 # Load
   * The first part of loading the data was identifying which parts of the exported csv's can be joined together. 
-  * the second part was to create an Entity Relationship Diagram which outlines the primary and foreign keys of joining various csv's together.
+  * The second part was to create an Entity Relationship Diagram which outlines the primary and foreign keys of joining various csv's together.
     <p align="left">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/crowdfunding_ERD.png" width="425", hspace="15">
     </p>
@@ -92,7 +92,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Contacts_Table.PNG" width="305", hspace="7">
     </p>
     </br>
-  * Aditionally, we created one joined database.
+  * Additionally, we created one joined database.
     <p align="left">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/Query_Campaign_Contacts_Join_Table.PNG" width="850">
     </p>
@@ -101,10 +101,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
 ---
 ## Results
 
-In the 11_WebScraping_Challenge, the first dataset is an scraping from a mars website including title and preview text. The notebook appends data from the website into a more manageable list format which shows the lists in fill from the website. In the second file, another scraping from a separate website collects data about the temperature, date, pressure, and other weather conditions from the location of the Curiosity rover. The data chain continues importing the data and setting into a dataframe for further analysis and graphing. To make sure the data is calculated appropriately, several columns must adhere convert to specific datatypes and are changed to reflect the new type. Several graphs have been calculated against as well as an analysis after each graph answering varying questions about conditions on Mars. A final output of the data is saved in a csv file for future use.
-
-
-
+In this project, we aggregated the imported data into four final csv files, campaign.csv, contacts.csv, category.csv, and sub-category.csv. These csv files host various tables that interconnect different sets of data. Using these relationships we created an entity relationship diagram not only to visually show the relationship but to form the tables and connections within the SQL database. These csv's were the foundation of the data that we imported into the SQL database we built. This results in in a fully functional SQL database tying together four interdependent csv files that can be used for queries or further data analysis. Additionally, images and independent csvs for reference and resources are available for additional information.
 
 
 ## Resources and Citations
