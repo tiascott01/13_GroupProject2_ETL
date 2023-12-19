@@ -30,12 +30,12 @@ This repository contains a project which extracts, transforms, and loads crowdfu
 
 ---
 ## Transform
-  * The first part of the transformation was to find the unique categories and subcategories and create a unique category and sub category ID.
+  * The first part of the transformation was to find the unique categories and subcategories and create a unique category and sub category ID. Data was then exported as a csv.
     <p align="left">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/category.png" width="186", hspace="15">
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/subcategory.png" width="101">
     </p>
-  * In the second part of the transformation a campaign dataframe was created with:
+  * In the second part of the transformation a campaign dataframe was created with the following categories and exported as a csv:
        * "cf_id" column,
        * "contact_id" column,
        * “company_name” column, the "blurb" column (renamed as "description"),
@@ -52,7 +52,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/campaign_datatypes.png" width="157">
     </p>
 ### Option 1: Pandas Dataframe
-  * In the third part of the transformation a contacts dataframe was created with pandas: 
+  * In the third part of the transformation a contacts dataframe was created with pandas and exported as a csv: 
        * "contact_id" column,
        * "first_name" column,
        * “last_name” column, the "blurb" column (renamed as "description"),
@@ -62,7 +62,7 @@ This repository contains a project which extracts, transforms, and loads crowdfu
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_pandas2.png" width="325">
     </p>
 ### Option 2: Regex Dataframe
-  * In the third part of the transformation a contacts dataframe was created with regex: 
+  * In the third part of the transformation a contacts dataframe was created with regex and exported as a csv: 
        * "contact_id" column,
        * "first_name" column,
        * “last_name” column, the "blurb" column (renamed as "description"),
@@ -72,45 +72,25 @@ This repository contains a project which extracts, transforms, and loads crowdfu
     <img src="https://github.com/tiascott01/13_GroupProject2_ETL/blob/main/Images/contact_dataframe_regex2.png" width="533">
     </p>
 
-
+---
+## Load
+  * The first part of loading the data was identifying which parts of the exported csv's can be joined together 
+  * Imports were from excel files into jupyter notebook.
+  * Extractions were for the Campaign Dataframe and the Contact Dataframe.
 
 
 ## Results
 
 In the 11_WebScraping_Challenge, the first dataset is an scraping from a mars website including title and preview text. The notebook appends data from the website into a more manageable list format which shows the lists in fill from the website. In the second file, another scraping from a separate website collects data about the temperature, date, pressure, and other weather conditions from the location of the Curiosity rover. The data chain continues importing the data and setting into a dataframe for further analysis and graphing. To make sure the data is calculated appropriately, several columns must adhere convert to specific datatypes and are changed to reflect the new type. Several graphs have been calculated against as well as an analysis after each graph answering varying questions about conditions on Mars. A final output of the data is saved in a csv file for future use.
 
-## Usage
 
-You can use this file to analyze the data in the corresponding notebook.
-
-1. Open the respective file (`part_1_mars_news.ipynb') in Jupyter Notebook or VSCode.
-
-2. Make sure that the resource and analysis directories are congruent within their respective places as listed in the script, if not change the location.
-   
-3. Cells requiring the dependencies such as BeautifulSoup and Selenium must be imported prior to use.
-
-5. Run individual cells within the (`part_1_mars_news.ipynb') to see the calculations or breakdown by category.
-
-
-
-
-
-You can use this file to analyze the data in the corresponding notebook.
-
-1. Open the respective file (`part_2_mars_news.ipynb') in Jupyter Notebook or VSCode.
-
-2. Make sure that the resource and analysis directories are congruent within their respective places as listed in the script, if not change the location.
-   
-3. Cells requiring the dependencies such as BeautifulSoup and Selenium must be imported prior to use.
-
-5. Run individual cells within the (`part_2_mars_news.ipynb') to see the calculations, breakdown by category, or plots associated with this file.
-
-7. Results will be exported from the notebook into the ('mars_data_export.csv') file.
 
 
 
 ## Resources and Citations
 
 1. Project Partners - Tia Scott and Haylee McLean
+   
 2. General - ChatGpt.com
+   
 3. Office Hours, Unix timestamp conversion code - Antonio Laverghetta
